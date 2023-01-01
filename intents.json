@@ -32,52 +32,30 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "disease",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "I have cold.",
+        "I am ill.",
+        "Help",
+        "I am sick."
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "You should go see a doctor.",
+        "You should take a rest and eat healthy food."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "emergency",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "I had an accident.",
+        "There is an accident",
+        "Emergency"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "You can use the ambulance service provided in the app.",
+        "Take the patient to the nearest hospital",
+        "Keep the patient awake till the ambulance arrives.",
+        "Continuously talk to the patient to keep him conscious."
       ]
     }
   ]
